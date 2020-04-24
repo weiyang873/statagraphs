@@ -10,9 +10,9 @@ cd "C:\Stata"
 *** open your file
 use filename.dta, clear
 *** label your dependent variable 
-label variable  dv "Cumulative Abnormal Returns"
-*** label your independent variable 
+label variable dv "dv_lab"
 
+*** label your independent variable 
 label variable dv "dv_lab"
 
 label variable iv "iv_lab"
